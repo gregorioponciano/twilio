@@ -19,7 +19,7 @@ Automação para gerenciamento de SMS e OTPs utilizando Twilio, provedores de n�
 ## Instalação
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/gregorioponciano/twilio.git
 cd twilio
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
