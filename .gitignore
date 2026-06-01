@@ -5,17 +5,22 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+*.egg
+*.whl
 
 # Virtual environment
 venv/
-.env.local
 .env
+
+# Runtime data (SQLite DB, markers, logs)
+data/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
@@ -24,3 +29,10 @@ Thumbs.db
 # Selenium
 geckodriver.log
 chromedriver.log
+
+# Logs
+*.log
+
+# PyInstaller
+*.spec
+
